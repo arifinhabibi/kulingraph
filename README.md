@@ -29,11 +29,13 @@ kulingraph/
 
 ### Cara Menjalankan:
 1. Build dengan Docker:
+```bash
    docker build -t kulingraph .
-
+```
 2. Jalankan program:
+```bash
    docker run -it kulingraph
-
+```
 ### Fitur:
 - Tambah tempat makan (node)
 - Tambah koneksi antar tempat (edge)
