@@ -1,6 +1,6 @@
-📄 README.txt – KulinGraph (Aplikasi Rekomendasi Tempat Makan)
+### KulinGraph (Aplikasi Rekomendasi Tempat Makan)
 
-🧠 Deskripsi Proyek:
+### Deskripsi Proyek:
 KulinGraph adalah aplikasi sederhana berbasis C++ yang mengimplementasikan konsep struktur data dan algoritma seperti:
 - Graph untuk merepresentasikan koneksi antar tempat makan
 - Breadth-First Search (BFS) dan Depth-First Search (DFS) untuk penelusuran tempat
@@ -8,10 +8,10 @@ KulinGraph adalah aplikasi sederhana berbasis C++ yang mengimplementasikan konse
 - Sorting (Bubble Sort) untuk mengurutkan tempat berdasarkan harga atau rating
 - Analisis Big-O Notation disisipkan di setiap fungsi
 
-💡 Studi Kasus:
+### Studi Kasus:
 Aplikasi ini berguna untuk pengguna yang ingin mencari dan menelusuri rekomendasi tempat makan secara lokal, misalnya dalam satu kawasan kampus atau kota kecil.
 
-🧱 Struktur Folder:
+### Struktur Folder:
 kulingraph/
 ├── Dockerfile
 ├── CMakeLists.txt
@@ -27,14 +27,14 @@ kulingraph/
 │   ├── sort.h
 │   └── sort.cpp
 
-▶️ Cara Menjalankan:
+### Cara Menjalankan:
 1. Build dengan Docker:
    docker build -t kulingraph .
 
 2. Jalankan program:
    docker run -it kulingraph
 
-⚙️ Fitur:
+### Fitur:
 - Tambah tempat makan (node)
 - Tambah koneksi antar tempat (edge)
 - Tampilkan peta (graph)
@@ -42,7 +42,7 @@ kulingraph/
 - Cari tempat makan dengan linear search
 - Urutkan berdasarkan harga atau rating (bubble sort)
 
-📊 Kompleksitas Algoritma (Big-O):
+### Kompleksitas Algoritma (Big-O):
 - Linear Search: O(n)
 - Bubble Sort: O(n²)
 - BFS / DFS: O(V + E), di mana V adalah jumlah node, E adalah jumlah edge
